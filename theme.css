@@ -1004,7 +1004,15 @@ lol-social-roster .more-unread .more-unread-bar {
   background-color: #FFF;
 }
 
-.lol-social-avatar .center.xp-ring {
+lol-social-avatar .center.xp-ring {
   background-size: contain;
   background-image: url(https://icon-library.com/images/2018/2325974_shrek-face-shrek-faces-hd-png-download.png);
+}
+
+lol-social-avatar .icon-image {
+  display: none;
+}
+
+:host .lol-regalia-crest-root .lol-regalia-summoner-icon-mask-container .lol-regalia-summoner-icon {
+  background-image: url(https://icon-library.com/images/2018/2325974_shrek-face-shrek-faces-hd-png-download.png) !important;
 }
