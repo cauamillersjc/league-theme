@@ -48,10 +48,6 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     width: 1280px;
     height: 720px;
     position: relative;
-    border-right: 2px solid #9100ff!important;
-    border-left: 2px solid #9100ff!important;
-    border-bottom: 2px solid #9100ff!important;
-    border-top: 2px solid #9100ff!important;
     box-sizing: border-box;
     overflow: hidden;
     background: #000;
@@ -250,12 +246,14 @@ lol-uikit-full-page-backdrop {
 
 .play-button-content{
     width: calc(100% - 52px) !important;
+    margin-right: auto;
+    margin-left: 0.5em;
 }
 
 .play-button-text{
   color: #fff !important;
   font-family: 'Open Sans', sans-serif !important;
-  content: '▶ PLAY' !important;
+  content: '▶ JOGAR' !important;
   visibility: hidden;
   z-index: 0 !important;
 }
@@ -858,7 +856,7 @@ lol-uikit-video-state-machine{
 }
 
 .play-button-content{
-  left: 30px !important;
+  left: 20px !important;
 }
 
 :host .parties-status-card.open {
@@ -994,4 +992,12 @@ lol-social-chat-window .conversation.active::before{
 
 lol-social-roster .more-unread .more-unread-bar{
   background-color: #BB86FF !important;
+}
+
+.right-nav-vertical-rule {
+  opacity: 0;
+}
+
+.main-navigation-menu-item .menu-item-icon {
+  background-color: #FFF;
 }
