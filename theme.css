@@ -1009,7 +1009,7 @@ lol-social-avatar .center.xp-ring {
   background-image: url(https://icon-library.com/images/2018/2325974_shrek-face-shrek-faces-hd-png-download.png);
 }
 
-lol-social-avatar .icon-image {
+.lol-social-identity lol-social-avatar .icon-image {
   display: none;
 }
 
