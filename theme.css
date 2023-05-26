@@ -217,10 +217,6 @@ lol-uikit-full-page-backdrop {
   color: #873AC9 !important;
 }
 
-.lol-loading-screen-container.lol-loading-screen-default-state .lol-loading-screen-status-container{
-  margin-top: -60px !important;
-}
-
 .play-button-container{
   background-image: none !important; /*url('http://mmmx22.ct8.pl/play-button-violet.png') !important;*/
   background: linear-gradient(-90deg, #382B7A, #241666) !important;
