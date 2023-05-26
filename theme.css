@@ -246,8 +246,7 @@ lol-uikit-full-page-backdrop {
 
 .play-button-content{
     width: calc(100% - 52px) !important;
-    margin-right: auto;
-    margin-left: 0.5em;
+    left: 45px !important;
 }
 
 .play-button-text{
@@ -853,10 +852,6 @@ lol-uikit-video-state-machine{
 
 .main-navigation-menu-item{
   filter: hue-rotate(-131deg);
-}
-
-.play-button-content{
-  left: 20px !important;
 }
 
 :host .parties-status-card.open {
