@@ -342,27 +342,6 @@ lol-social-status .status-message.dnd {
   text-transform: uppercase;
 }
 
-:host .lol-uikit-background-switcher-image {
-  content: url(https://i.ibb.co/QcgNzKT/7f7ce09a2a883002643f442a7e7ddfaf.jpg) !important;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
-  filter: blur(10px);
-  width: auto !important;
-}
-
-.parties-view .parties-background lol-uikit-background-switcher {
-  content: url(https://i.ibb.co/QcgNzKT/7f7ce09a2a883002643f442a7e7ddfaf.jpg) !important;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
-  filter: blur(10px);
-  width: auto !important;
-}
-
-.parties-view .parties-background .uikit-background-switcher {
-  content: url(https://i.ibb.co/QcgNzKT/7f7ce09a2a883002643f442a7e7ddfaf.jpg) !important;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
-  filter: blur(10px);
-  width: auto !important;
-}
-
 .action-bar-button {
   filter: hue-rotate(-131deg);
 }
@@ -1015,4 +994,14 @@ lol-social-avatar .center.xp-ring {
 
 :host .lol-regalia-crest-root .lol-regalia-summoner-icon-mask-container .lol-regalia-summoner-icon {
   background-image: url(https://icon-library.com/images/2018/2325974_shrek-face-shrek-faces-hd-png-download.png) !important;
+}
+
+.parties-view .parties-background .uikit-background-switcher .lol-uikit-background-switcher-image {
+  display: none;
+}
+
+.parties-view .parties-background.is-showing-party .uikit-background-switcher {
+  background-size: contain;
+  background-image: url(https://e0.pxfuel.com/wallpapers/74/40/desktop-wallpaper-a-cultural-evolution-of-shrek-from-blockbuster-hit-to-historic-meme-aesthetic-shrek.jpg);
+  background-repeat: round;
 }
